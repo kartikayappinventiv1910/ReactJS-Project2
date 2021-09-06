@@ -5,18 +5,18 @@ import { Store } from "./store";
 import NotesApp from './noteApp';
 import MoviePage  from './moviessrc/mainPage';
 import WeatherApp  from './weatherApp';
+import RentalMS from './rental';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
         {/* <NotesApp /> */}
         {/* <WeatherApp /> */}
-        <Provider store={Store}>
+        <RentalMS />
+        {/* <Provider store={Store}>
         <MoviePage />
-        </Provider>
-      </header>
-    </div>
+        </Provider> */}
+        </>
   );
 }
 
